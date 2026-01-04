@@ -1,4 +1,4 @@
-# SOC Home Lab – Attacker & Victim Simulation with Log Forwarding
+# Windows Log Forwarding & Alerting with Splunk
 
 ## 📌 Project Overview
 This project demonstrates a basic SOC home lab where a Windows endpoint forwards critical security logs to an on-premises Splunk SIEM for centralized monitoring and analysis.  
@@ -8,7 +8,6 @@ The goal of this project is to understand how logs are generated at the endpoint
 
 ## 🏗️ Lab Architecture
 
-Kali Linux (Attacker VM)  
 → Windows 10 (Victim VM)  
 → Splunk Universal Forwarder  
 → Splunk Enterprise (Host Machine)
